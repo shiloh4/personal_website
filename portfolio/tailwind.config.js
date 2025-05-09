@@ -27,8 +27,8 @@ export default {
         'heading': ['Open Sans', 'sans-serif'],
       },
       width: {
-        'mobile': '55%',
-        'desktop': '80%',
+        'mobile': '80%',
+        'desktop': '55%',
       }
     },
   },

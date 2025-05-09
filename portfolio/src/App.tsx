@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
@@ -7,6 +8,7 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <div className="min-h-screen bg-light-default dark:bg-dark-default">
+      <Navbar />
       <main className="container mx-auto px-4">
         <Routes>
             <Route path="/" element={<Home />} />
