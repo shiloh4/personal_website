@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import userProfilePic from '../assets/pfp.jpg';
-import { useDarkMode } from '../hooks/useDarkMode.tsx'; // We'll create this hook
+import { useDarkMode } from '../hooks/useDarkMode.tsx';
 
 function ImageAvatar() {
   return (
@@ -19,7 +19,7 @@ function ThemeToggleButton() {
   return (
     <button 
       onClick={toggleDarkMode} 
-      className="p-2 rounded-full text-tech-gold hover:bg-light-paper dark:hover:bg-dark-paper transition-colors"
+      className="lg:p-2 p-1 rounded-full text-tech-gold hover:bg-light-paper dark:hover:bg-dark-paper transition-colors"
       aria-label={isDarkMode ? "Switch to light mode" : "Switch to dark mode"}
     >
       {isDarkMode ? (
@@ -76,10 +76,10 @@ function Navbar() {
       <nav 
         className={`fixed top-0 w-full z-50 transition-transform duration-500 ease-in-out 
           ${show ? 'transform-none' : '-translate-y-full'}
-          bg-light-default/10 dark:bg-dark-default/80 backdrop-blur-md
-          ${isMobile ? 'py-8' : 'py-4'} shadow-none`}
+          bg-light-default/10 dark:bg-dark-default/10 backdrop-blur-md
+          py-4 shadow-none`}
       >
-        <div className={`flex justify-between items-center mx-auto ${isMobile ? 'w-mobile' : 'w-desktop'}`}>
+        <div className={`flex justify-between items-center mx-auto px-4 ${isMobile ? 'w-mobile' : 'w-desktop'}`}>
           <div className="flex items-center">
             <Link to="/" className="block" title="That's me!">
               <ImageAvatar />
@@ -88,17 +88,17 @@ function Navbar() {
 
           <div className="flex items-center">
             <Link to="/resume" className="mx-1">
-              <button className="px-3 py-1 text-tech-gold hover:bg-light-paper/30 dark:hover:bg-dark-paper/30 rounded transition-colors">
+              <button className="lg:px-3 py-1 text-tech-gold hover:bg-light-paper/30 dark:hover:bg-dark-paper/30 rounded transition-colors">
                 resume
               </button>
             </Link>
             <Link to="/portfolio" className="mx-1">
-              <button className="px-3 py-1 text-tech-gold hover:bg-light-paper/30 dark:hover:bg-dark-paper/30 rounded transition-colors">
+              <button className="lg:px-3 py-1 text-tech-gold hover:bg-light-paper/30 dark:hover:bg-dark-paper/30 rounded transition-colors">
                 portfolio
               </button>
             </Link>
             <Link to="/contact" className="mx-1">
-              <button className="px-3 py-1 text-tech-gold hover:bg-light-paper/30 dark:hover:bg-dark-paper/30 rounded transition-colors">
+              <button className="lg:px-3 py-1 text-tech-gold hover:bg-light-paper/30 dark:hover:bg-dark-paper/30 rounded transition-colors">
                 contact
               </button>
             </Link>

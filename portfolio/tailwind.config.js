@@ -10,6 +10,8 @@ export default {
         'tech-gold': '#B3A369',
         'navy-blue': '#003057',
         'dark-navy': '#1C1C1C',
+        'link-dark': '#003057',
+        'link-light': '#61dafb',
       },
       backgroundColor: {
         'light-default': '#FFFFFF',
@@ -23,11 +25,11 @@ export default {
         'dark-secondary': '#E0E0E0',
       },
       fontFamily: {
-        'sans': ['Roboto', 'sans-serif'],
-        'heading': ['Open Sans', 'sans-serif'],
+        'sans': ['Open Sans', 'sans-serif'],
+        // 'heading': ['Open Sans', 'sans-serif'],
       },
       width: {
-        'mobile': '80%',
+        'mobile': '90%',
         'desktop': '55%',
       }
     },

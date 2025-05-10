@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="min-h-screen bg-light-default dark:bg-dark-default">
       <Navbar />
-      <main className="container mx-auto px-4">
+      <main className="container mx-auto">
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/portfolio" element={<Portfolio />} />
