@@ -8,7 +8,7 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <div className="min-h-screen bg-light-default dark:bg-dark-default">
+    <div className="min-h-dvh items-stretch bg-light-default dark:bg-dark-default">
       <Navbar />
       <main className="container mx-auto">
         <Routes>

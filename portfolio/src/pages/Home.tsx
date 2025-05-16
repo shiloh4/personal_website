@@ -13,8 +13,8 @@ function Home() {
     }, []);
 
     return (
-        <div className={`mx-auto py-8 ${isMobile ? 'w-mobile' : 'w-desktop'}`}>
-            <div className='flex flex-col mx-auto mt-12 text-white justify-center my-8 px-4'>
+        <div className={`mx-auto min-h-[calc(100vh-40px)] ${isMobile ? 'w-mobile' : 'w-desktop'}`}>
+            <div className='flex flex-col mx-auto pt-20 text-white justify-center px-4'>
                 <div className="text-tech-gold">
                     <h2 className="text-2xl">ethan loo</h2>
                 </div>
