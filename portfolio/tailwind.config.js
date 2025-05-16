@@ -7,13 +7,14 @@ export default {
   theme: {
     extend: {
       colors: {
+        // text
         'tech-gold': '#B3A369',
         'navy-blue': '#003057',
         'dark-navy': '#1C1C1C',
         'link-dark': '#003057',
         'link-light': '#61dafb',
-      },
-      backgroundColor: {
+
+        // bg
         'light-default': '#FFFFFF',
         'light-paper': '#F5F5F5',
         'dark-default': '#1C1C1C',
