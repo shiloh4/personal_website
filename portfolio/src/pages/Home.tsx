@@ -27,7 +27,7 @@ function Home() {
             </div>
 
             <div className='flex flex-col mx-auto text-light-primary dark:text-dark-primary rounded-xl p-4 bg-gray-500/20 shadow-xl my-8'>
-                <p className='py-2 font-heading'>
+                <p className='pb-2 font-heading'>
                     I am a <i>software engineer</i>, <i>front-end developer</i>, <i>UI/UX designer</i>, <i>problem solver</i>, and <i>lifelong learner</i>.
                 </p>
                 <p className='py-2'>
@@ -39,7 +39,7 @@ function Home() {
                     <a href="https://www.cc.gatech.edu/academics/threads/information-internetworks" target="_blank" rel="noopener " className='dark:text-link-light text-link-dark hover:underline'> Information Internetworks </a> 
                     and <a href="https://www.cc.gatech.edu/academics/threads/media" target="_blank" rel="noopener" className='dark:text-link-light text-link-dark hover:underline'> Media</a>.
                 </p>
-                <p className='py-2'>
+                <p className='pt-2'>
                     <i>This is my personal space, where I share my projects and achievements, and showcase my passion for software development and design.</i>
                 </p>
             </div>
